@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const myHeaders = new Headers();
+        myHeaders.append('Content-Type', 'text/html');
+        let fetchOptions = {
+            method: 'GET',
+            headers: myHeaders,
+            mode: 'cors',
+            cache: 'default'
+        };
+        let tableHeader;
+        let tableBody;
+
+        function buildTableHeaders ($tr) {
+            const $tds = $tr.querySelector('table tr').querySelectorAll('td');
+
+            return Array.from($tds).map($td => $td.innerText).join(', ') + '\n';
+        }
+
+        function buildTableBody ($trs) {
+            let lines = [];
+            let line;
+            let $tds;
+
+            for (let i=1; i<$trs.length; i++) {
+                $tds = $trs[i].querySelectorAll('td');
+                line = Array.from($tds).map($td => $td.innerText).join(', ') + '\n';
+                lines.push(line);
+            }
+
+            return lines;
+        }
+
+        function buildCSV (header, body) {
+            const dataType = 'data:text/csv;charset=utf-8,%EF%BB%BF';
+            const csvContent = header + body;
+
+            let a = document.createElement('a');
+            a.href = dataType + encodeURI(csvContent);
+            a.download = 'document.csv';
+            a.click();
+        }
+
+        function processHTML (text) {
+            let htmlObj = document.createElement('html');
+            htmlObj.innerHTML = text;
+
+            const tables = htmlObj.querySelectorAll('table');
+            let $trHeader = tables[1].querySelector('tr')
+            let $trBody = tables[3].querySelectorAll('tr')
+
+            tableHeader = buildTableHeaders($trHeader);
+            tableBody = buildTableBody($trBody);
+            buildCSV(tableHeader, tableBody);
+        }
+
+        function fetchData () {
+            fetch('./rwservlet-7', fetchOptions)
+            .then(function(response) {
+                return response.text();
+            })
+            .then(processHTML)
+            .catch(function(err) {
+                console.log('Error: ', err);
+            });
+        }
+
+        fetchData();
+
+    </script>
+</body>
+</html>

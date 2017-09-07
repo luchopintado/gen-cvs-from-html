@@ -1,0 +1,83 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40"
+>
+<head>
+<title>dx5xl81X</title>
+<!--[if gte mso 9]><xml>
+<o:DocumentProperties>
+<o:Author>Oracle Reports</o:Author>
+<o:Company>Oracle Corporation</o:Company>
+<o:Created>2017-09-05 12-22-13</o:Created></o:DocumentProperties>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:DownloadComponents/>
+<o:DoNotOrganizeInFolder/>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet1</x:Name>
+<x:WorksheetOptions>
+<x:FitToPage/>
+<x:ProtectContents>False</x:ProtectContents>
+<x:ProtectContents>False</x:ProtectContents>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+<x:ProtectStructure>False</x:ProtectStructure>
+<x:ProtectWindows>False</x:ProtectWindows>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body dir=LTR bgcolor="#ffffff">
+<TABLE ></TABLE>
+<TABLE border="0" cellspacing="0" width="100%"><TR>
+<TD><TABLE border="0" cellspacing="0" width="100%"><TR>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Client</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Service Date</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Begin Time</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">End Time</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Minutes</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Status</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Type</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Activity</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Procedure</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Units</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Staff</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Program</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Org Code</SPAN></TD>
+<TD ALIGN="left" DIR="LTR"><SPAN STYLE="FONT-SIZE: 10pt; FONT-FAMILY: helvetica; COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: 700">Billing Status</SPAN></TD>
+<TD ALIGN="left" DIR="LTR">&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+<TABLE ></TABLE>
+<TABLE ></TABLE>
+<TABLE ></TABLE>
+<TABLE ></TABLE>
+<TABLE ></TABLE>
+</body></html>
